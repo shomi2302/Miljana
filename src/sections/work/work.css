@@ -1,0 +1,29 @@
+/* Work Section */
+
+.work-section{
+  margin: 20px auto;
+  text-align: center;
+}
+
+.selected-work{
+  margin-bottom: 100px;
+  font-size: 5rem;
+  border-bottom: 2px solid #222;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1500px) {
+  .selected-work{
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .work-section{
+    margin: 0 auto;
+  }
+  .selected-work{
+    font-size: 5.5vw;
+    margin-bottom: 50px;
+  }
+}

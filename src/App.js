@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import paintings from './data/paintings_data'
+import Navbar from './sections/navbar/navbar'
+import Home from './sections/home/home'
+import Work from './sections/work/work'
+import Contact from './sections/contact/contact'
+import Slider from './sections/gallery/gallery'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = {
+    paintings
+  }
+
+  render(){
+    return (
+      <div className="App">
+        <Navbar/>
+        <Home/>
+        <Work paintings={this.state.paintings} />
+        <Slider />
+        <Contact />
+      </div>
+    );
+  }
+
 }
 
 export default App;
