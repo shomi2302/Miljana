@@ -58,8 +58,8 @@ class Contact extends React.Component{
         <div className="connect">
           <h1>Let's Connect</h1>
           <div className="social-media">
-            <a href="https://www.facebook.com/miljanaNikolicc" rel="noopener noreferrer"  target="_blank"><img src={Facebook} className="icon"/></a>
-            <a href="https://www.instagram.com/mmiljananikolicc/" rel="noopener noreferrer"  target="_blank"><img src={Instagram} className="icon"/></a>
+            <a href="https://www.facebook.com/miljanaNikolicc" rel="noopener noreferrer"  target="_blank"><img alt="fb icon" src={Facebook} className="icon"/></a>
+            <a href="https://www.instagram.com/mmiljananikolicc/" rel="noopener noreferrer"  target="_blank"><img alt="ig icon" src={Instagram} className="icon"/></a>
           </div>
         </div>
         <div className="form-block">

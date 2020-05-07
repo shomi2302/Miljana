@@ -13,11 +13,12 @@ const Painting = ({ painting }) => {
           defaultScale={1}
           defaultPositionX={200}
           defaultPositionY={100}
+          pan={{lockAxisX:true, lockAxisY:true}}
         >
-          {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
+          {({ zoomIn, zoomOut, resetTransform,lockAxisX,lockAxisY, ...rest }) => (
             <React.Fragment>
-              <TransformComponent>
-                <div >
+              <TransformComponent >
+                <div>
                   <ReactImageAppear
                     className="painting"
                     src={imageUrl}

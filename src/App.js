@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+// import {firestore, exhibitions} from './firebase/firebase'
 import paintings from './data/paintings_data'
 import Navbar from './sections/navbar/navbar'
 import Home from './sections/home/home'
@@ -11,6 +12,7 @@ class App extends React.Component {
   state = {
     paintings
   }
+
 
   render(){
     return (
