@@ -13,7 +13,8 @@ const Painting = ({ painting }) => {
           defaultScale={1}
           defaultPositionX={200}
           defaultPositionY={100}
-          pan={{lockAxisX:true, lockAxisY:true, disabled:true}}
+          pan={{lockAxisX:true, lockAxisY:true}}
+          Options={{limitToBounds:true}}
         >
           {({ zoomIn, zoomOut, resetTransform,lockAxisX,lockAxisY, ...rest }) => (
             <React.Fragment>

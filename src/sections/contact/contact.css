@@ -61,33 +61,31 @@ textarea[type="text"]{
 }
 
 textarea[type="text"]:focus{
-  outline-color: #2a9d8f;
-  -webkit-box-shadow: 0px 0px 10px 1px #2a9d8f;
-  -moz-box-shadow: 0px 0px 10px 1px #2a9d8f;
-  box-shadow: 0px 0px 10px 1px #2a9d8f;
+  outline-color: #fafafa;
+  -webkit-box-shadow: 0px 0px 10px 1px #fafafa;
+  -moz-box-shadow: 0px 0px 10px 1px #fafafa;
+  box-shadow: 0px 0px 10px 1px #fafafa;
 }
 
 #button {
-  width: 150px;
   padding: 10px 20px;
   background: none;
-  color: #2a9d8f;
+  color: #fafafa;
   margin-left: auto;
   font-weight: bold;
   border-radius: 5px;
   transition: all 0.3s ease;
   cursor: pointer;
-  border-color: #2a9d8f;
+  border-color: #fafafa;
 }
 
 #button:hover {
-  background: #2a9d8f;
-  color: white;
+  background: #fafafa;
+  color: #222;
 }
 
 #msg_sent{
   padding: 10px 20px;
-  background: #2a9d8f;
   color: white;
   height: 10px;
 }
@@ -110,7 +108,7 @@ textarea[type="text"]:focus{
     grid-template-columns: 1fr;
   }
   .social-media{
-    width: 55px;
+    width: 60px;
   }
   .social-media a{
     width: 25px;
@@ -121,4 +119,8 @@ textarea[type="text"]:focus{
   .email{
     width: 100%;
   }
+  #button {
+    font-size: .75rem;
+  }
+
 }

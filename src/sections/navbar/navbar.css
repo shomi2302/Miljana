@@ -75,9 +75,9 @@
 
 @media screen and (max-width: 450px) {
   .nav-wrapper a{
-    font-size: .65rem;
-    margin: 10px 2px 0 0;
-    padding: 3px 5px;
+    font-size: .62rem;
+    margin: 10px 10px 0 0;
+    padding: 3px 5px 2px;
   }
 
   .nav-wrapper{
