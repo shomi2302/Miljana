@@ -32,8 +32,11 @@ class Contact extends React.Component{
         console.log(error);
       });
 
+
     e.preventDefault();
     let formData = { firtsname:'',lastname:'',email:'',message:''}
+    
+
     this.setState({ formData, submitted: true }, () => {
       setTimeout(() => this.setState({ submitted: false }), 3000);
     });

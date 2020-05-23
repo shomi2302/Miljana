@@ -59,10 +59,9 @@
 }
 
 .react-transform-component{
-  -webkit-box-shadow: 10px 11px 33px 0px rgba(0,0,0,0.43);
+  /* -webkit-box-shadow: 10px 11px 33px 0px rgba(0,0,0,0.43);
   -moz-box-shadow: 10px 11px 33px 0px rgba(0,0,0,0.43);
-  box-shadow: 10px 11px 33px 0px rgba(0,0,0,0.43);
-  border: 2px solid silver;
+  box-shadow: 10px 11px 33px 0px rgba(0,0,0,0.43); */
   cursor: grab;
 }
 
