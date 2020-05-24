@@ -1,8 +1,6 @@
 // import firebase from 'firebase/app'
 // import 'firebase/firestore'
 //
-//
-//
 // const firebaseConfig = {
 //   apiKey: "AIzaSyDZbWyIJpT31w-n1q-vugfriHjt8BpkVLs",
 //   authDomain: "portfolio-7f4f5.firebaseapp.com",
@@ -16,6 +14,4 @@
 //
 // firebase.initializeApp(firebaseConfig)
 //
-// export const firestore = firebase.firestore();
-//
-// export const exhibitions = ["it doesn't matter", "other coll"]
+// export default firebase

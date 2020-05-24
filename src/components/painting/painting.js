@@ -1,6 +1,4 @@
 import React from "react";
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
-// import LazyLoad from 'react-lazyload';
 import ReactImageAppear from 'react-image-appear';
 import "./painting.css";
 
@@ -9,30 +7,14 @@ const Painting = ({ painting }) => {
   return (
     <div className={`projectBlock-${position} projectBlock`}>
       <div className={`paintintgBlock-${position} paintingBlock`}>
-        <TransformWrapper
-          defaultScale={1}
-          defaultPositionX={200}
-          defaultPositionY={100}
-          pan={{lockAxisX:true, lockAxisY:true}}
-          Options={{limitToBounds:true}}
-        >
-          {({ zoomIn, zoomOut, resetTransform,lockAxisX,lockAxisY, ...rest }) => (
-            <React.Fragment>
-              <TransformComponent >
-                <div>
-                  <ReactImageAppear
-                    className="painting"
-                    src={imageUrl}
-                    alt={`painting - ${name}`}
-                    placeholder
-                    showLoader={false}
-                  />
-                </div>
-              </TransformComponent>
-
-            </React.Fragment>
-          )}
-        </TransformWrapper>
+        <a target="_blank" rel="noopener noreferrer" href={imageUrl}>
+          <ReactImageAppear
+            className="painting"
+            src={`${process.env.PUBLIC_URL}${imageUrl}`}
+            alt={`painting - ${name}`}
+            placeholder
+            showLoader={false} />
+        </a>
       </div>
       <div className={`overviewBlock-${position} overviewBlock`}>
         <div className="paintingname-block">

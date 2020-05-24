@@ -5,7 +5,7 @@ import "./navbar.css";
 const Navbar = () => (
   <nav className="nav-wrapper">
     <h1>
-      <a class="home_link" href="#home">Miljana Nikolic</a>
+      <a className="home_link" href="#home">Miljana Nikolic</a>
     </h1>
     <div className="nav-block">
       <Link

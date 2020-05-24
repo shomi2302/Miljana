@@ -1,30 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-// import {firestore, exhibitions} from './firebase/firebase'
-import paintings from './data/paintings_data'
-import Navbar from './sections/navbar/navbar'
+import paintingsData from './data/paintings_data'
+import Navbar from './components/navbar/navbar'
 import Home from './sections/home/home'
 import Work from './sections/work/work'
 import Contact from './sections/contact/contact'
-import Slider from './sections/gallery/gallery'
 
-class App extends React.Component {
-  state = {
-    paintings
-  }
+function App() {
 
+  const [ data, setData ] = useState(paintingsData.exhibition)
 
-  render(){
-    return (
-      <div className="App">
-        <Navbar/>
-        <Home/>
-        <Work paintings={this.state.paintings} />
-        <Slider />
-        <Contact />
-      </div>
-    );
-  }
+  let exhibition = data.map((paintings,i)=> {
+    return (<Work key={i} paintings={paintings} />)
+  })
+
+  return (
+    <div className="App">
+      <Navbar/>
+      <Home/>
+      {exhibition}
+      <Contact />
+    </div>
+  );
+
 
 }
 

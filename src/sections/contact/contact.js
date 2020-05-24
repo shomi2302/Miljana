@@ -18,7 +18,6 @@ class Contact extends React.Component{
   }
 
   handleForm = e => {
-    const { submitted } = this.state
 
     axios.post(
       "https://formcarry.com/s/FZRZQqNhvjc",
@@ -35,7 +34,7 @@ class Contact extends React.Component{
 
     e.preventDefault();
     let formData = { firtsname:'',lastname:'',email:'',message:''}
-    
+
 
     this.setState({ formData, submitted: true }, () => {
       setTimeout(() => this.setState({ submitted: false }), 3000);

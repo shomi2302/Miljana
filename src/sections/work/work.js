@@ -1,11 +1,15 @@
 import React from "react";
 import Painting from "../../components/painting/painting";
+import Gallery from "../gallery/gallery"
 import "./work.css";
 
 const Work = ({paintings}) => {
-  const paintingsMap = paintings.map((painting, i) => {
+  const paintingsMap = paintings.paintings.map((painting, i) => {
     return <Painting key={i} painting={painting} />;
   });
+
+
+
 
   return (
     <section id="work" className="container work-section">
@@ -13,6 +17,7 @@ const Work = ({paintings}) => {
         <p>Selected Works</p>
       </div>
       {paintingsMap}
+      <Gallery gallery={paintings.gallery}/>
     </section>
   );
 };
