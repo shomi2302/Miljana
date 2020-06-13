@@ -6,7 +6,7 @@ const paintingsData = {
         name: "It Doesn't Matter",
         year: "2018",
         overview:
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Asperiores voluptatem vel incidunt quo reiciendis, temporibus beatae, numquam, quasi consequuntur dolores nobis eaque dignissimos totam explicabo.",
+          "Na prvoj izložbi Miljane Nikolić, bili su predstavljeni radovi nastali tokom života 2017/18. Svi radovi se mogu podvesti pod vizuelna istraživanja raznih apstraktnih razmišljanja i pokušaj da se nađe forma za najbolje prikazivanje misli ili emocije. Slike i mozaici su nastajali paralelno, naizgled su nepovezani. Kako dobiti odgovore na nebitna pitanja? Razmišljanja o svemiru, o tome kako prikazati tradicionalnim sredstvima prizore o kojima imamo premalo informacija i šta se to koga tiče? Kako zasititi oko bojom da dobije odgovore na nepostavljena pitanja? Šta je to što je umetnost i, ponovo, šta se to koga tiče? Zašto se baviti nečim što se nikoga ne tiče i kako objasniti da to, prosto, nije tačno?",
         gallImgUrl: [
           "/assets/itDoesntMatter/Gallery/gallery_1.jpg",
           "/assets/itDoesntMatter/Gallery/gallery_2.jpg",
