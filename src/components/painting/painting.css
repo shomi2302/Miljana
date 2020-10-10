@@ -40,10 +40,6 @@
   grid-area: overview;
 }
 
-.overviewBlock-portraitleft{
-
-}
-
 .overviewBlock-portraitright{
   width: 150px;
   margin-left: auto;
@@ -63,6 +59,14 @@
   -moz-box-shadow: 10px 11px 33px 0px rgba(0,0,0,0.43);
   box-shadow: 10px 11px 33px 0px rgba(0,0,0,0.43); */
   cursor: grab;
+}
+.enquiry-box{
+  margin-top: 30px;
+}
+.enquiry{
+  cursor:pointer;
+  font-size: 12px;
+  border-bottom:1px solid black;
 }
 
 @media screen and (max-width: 1500px) {

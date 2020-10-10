@@ -73,7 +73,15 @@ class Contact extends React.Component{
             </div>
 
             <div className="textarea-block">
-              <textarea onChange={this.handleFields} value={message} type="text" name="message" rows="8" cols="80" placeholder="Type your message here..." wrap="off" autoComplete="off"></textarea>
+              <textarea onChange={this.handleFields} 
+                value={message} 
+                type="text" 
+                name="message" 
+                placeholder="Type your message here..." 
+                wrap="off" 
+                autoComplete="off"
+                multilline                
+              />
             </div>
 
             <button id="button" type="submit" name="button" disabled={submitted}>

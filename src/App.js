@@ -8,7 +8,7 @@ import Contact from './sections/contact/contact'
 
 function App() {
 
-  const [ data, setData ] = useState(paintingsData.exhibition)
+  const [ data ] = useState(paintingsData.exhibition)
 
   let exhibition = data.map((paintings,i)=> {
     return (<Work key={i} paintings={paintings} />)
