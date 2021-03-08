@@ -17,6 +17,22 @@ const paintingsData = {
       },
       paintings: [
         {
+          name: "Dunes (solitude)",
+          size: "150x100cm",
+          type: "Acrylic on canvas",
+          year: "2020",
+          imageUrl: "/assets/itDoesntMatter/Dunes (solitude).jpg",
+          position: "left"
+        },
+        {
+          name: "Hygia (isolation)",
+          size: "90x150cm",
+          type: "Acrylic on canvas",
+          year: "2021",
+          imageUrl: "/assets/itDoesntMatter/Hygia (isolation).jpg",
+          position: "portraitright"
+        },
+        {
           name: "North America NGC 7000",
           size: "110x150cm",
           type: "Oil on canvas",

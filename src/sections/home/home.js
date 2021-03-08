@@ -14,9 +14,7 @@ const Home = () => {
             Hi, I am <span>Miljana</span>
           </h1>
           <p>
-            I am a visual artist from Serbia. I graduated applied painting at
-            the Faculty of Applied arts at The University of Arts in Belgrade,
-            Serbia. I live, work and explore in the Middle East.
+          I am a visual artist from Serbia. I graduated applied painting at the Faculty of Applied arts at The University of Arts in Belgrade, Serbia. Lived in Middle East, currently travelling, based back home in Serbia.
           </p>
         </div>
       </div>
