@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/chabi/static/css/main.9b29b59d.chunk.css",
+    "main.js": "/chabi/static/js/main.dc057cd8.chunk.js",
+    "main.js.map": "/chabi/static/js/main.dc057cd8.chunk.js.map",
+    "runtime-main.js": "/chabi/static/js/runtime-main.34ccd604.js",
+    "runtime-main.js.map": "/chabi/static/js/runtime-main.34ccd604.js.map",
+    "static/css/2.6cffe261.chunk.css": "/chabi/static/css/2.6cffe261.chunk.css",
+    "static/js/2.e0c4a327.chunk.js": "/chabi/static/js/2.e0c4a327.chunk.js",
+    "static/js/2.e0c4a327.chunk.js.map": "/chabi/static/js/2.e0c4a327.chunk.js.map",
+    "index.html": "/chabi/index.html",
+    "precache-manifest.8f9fa8458393fe526924a89e93109c7e.js": "/chabi/precache-manifest.8f9fa8458393fe526924a89e93109c7e.js",
+    "service-worker.js": "/chabi/service-worker.js",
+    "static/css/2.6cffe261.chunk.css.map": "/chabi/static/css/2.6cffe261.chunk.css.map",
+    "static/css/main.9b29b59d.chunk.css.map": "/chabi/static/css/main.9b29b59d.chunk.css.map",
+    "static/js/2.e0c4a327.chunk.js.LICENSE.txt": "/chabi/static/js/2.e0c4a327.chunk.js.LICENSE.txt",
+    "static/media/truck9.jpeg": "/chabi/static/media/truck9.dad05a54.jpeg",
+    "static/media/App.css": "/chabi/static/media/trucks.921d4f5c.jpeg",
+    "static/media/trucks2.jpeg": "/chabi/static/media/trucks2.79f21f74.jpeg",
+    "static/media/trucks3.jpeg": "/chabi/static/media/trucks3.5d9f3282.jpeg",
+    "static/media/trucks4.jpeg": "/chabi/static/media/trucks4.11ce4a9c.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34ccd604.js",
+    "static/css/2.6cffe261.chunk.css",
+    "static/js/2.e0c4a327.chunk.js",
+    "static/css/main.9b29b59d.chunk.css",
+    "static/js/main.dc057cd8.chunk.js"
+  ]
+}
