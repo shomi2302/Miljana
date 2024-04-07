@@ -5,6 +5,7 @@ import Navbar from './components/navbar/navbar'
 import Home from './sections/home/home'
 import Work from './sections/work/work'
 import Contact from './sections/contact/contact'
+import Bio from './sections/bio/bio'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Home/>
+      <Bio />
       {exhibition}
       <Contact />
     </div>

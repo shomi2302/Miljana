@@ -7,7 +7,9 @@ const Home = () => {
 
   return (
   <div id="home" className="home">
-    <div className="main-block">
+    {/* <img src={heroimg} alt="portfolio img" /> */}
+
+    {/* <div className="main-block">
       <div className="content-block">
         <div className="cb">
           <h1>
@@ -20,10 +22,9 @@ const Home = () => {
       </div>
       <div className="image-block">
         <div>
-          <img src={heroimg} alt="portfolio img" />
         </div>
       </div>
-    </div>
+    </div> */}
   </div>
 )};
 

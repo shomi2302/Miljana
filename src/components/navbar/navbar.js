@@ -9,49 +9,40 @@ const Navbar = () => (
     </h1>
     <div className="nav-block">
       <Link
-        activeClass="active"
-        to="home"
+        to="bio"
         spy={true}
         smooth={true}
         hashSpy={true}
-        offset={-100}
         duration={1100}
+        offset={-100}
         delay={0}
         isDynamic={true}
-        // onSetActive={this.handleSetActive}
-        // onSetInactive={this.handleSetInactive}
+    
         ignoreCancelEvents={false}
       >
-        Home
+        Biography
       </Link>
       <Link
-        activeClass="active"
         to="work"
         spy={true}
         smooth={true}
         hashSpy={true}
-        offset={0}
-        duration={1100}
+        duration={1100}        
         delay={0}
         isDynamic={true}
-        // onSetActive={this.handleSetActive}
-        // onSetInactive={this.handleSetInactive}
         ignoreCancelEvents={false}
       >
         Works
       </Link>
       <Link
-        activeClass="active"
         to="contact"
         spy={true}
         smooth={true}
         hashSpy={true}
-        offset={-100}
+        offset={-800}
         duration={2500}
         delay={0}
         isDynamic={true}
-        // onSetActive={this.handleSetActive}
-        // onSetInactive={this.handleSetInactive}
         ignoreCancelEvents={false}
       >
         Contact

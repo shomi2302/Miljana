@@ -6,7 +6,7 @@ const paintingsData = {
         name: "It Doesn't Matter",
         year: "2018",
         overview:
-          "Na prvoj izložbi Miljane Nikolić, bili su predstavljeni radovi nastali tokom života 2017/18. Svi radovi se mogu podvesti pod vizuelna istraživanja raznih apstraktnih razmišljanja i pokušaj da se nađe forma za najbolje prikazivanje misli ili emocije. Slike i mozaici su nastajali paralelno, naizgled su nepovezani. Kako dobiti odgovore na nebitna pitanja? Razmišljanja o svemiru, o tome kako prikazati tradicionalnim sredstvima prizore o kojima imamo premalo informacija i šta se to koga tiče? Kako zasititi oko bojom da dobije odgovore na nepostavljena pitanja? Šta je to što je umetnost i, ponovo, šta se to koga tiče? Zašto se baviti nečim što se nikoga ne tiče i kako objasniti da to, prosto, nije tačno?",
+          "At the first exhibition of Miljana Nikolić, works created during 2017/18 were presented. All the works can be classified under visual investigations of various abstract thoughts and attempts to find a form for the best representation of thoughts or emotions. Paintings and mosaics were created in parallel, seemingly unconnected. How to get answers to insignificant questions? Thoughts about the universe, how to depict traditional scenes about which we have too little information and who cares about that? How to saturate the eye with color to get answers to unasked questions? What is art and, again, who cares about that? Why engage in something that concerns nobody and how to explain that this, simply, is not true?",
         gallImgUrl: [
           "/assets/itDoesntMatter/Gallery/gallery_1.jpg",
           "/assets/itDoesntMatter/Gallery/gallery_2.jpg",

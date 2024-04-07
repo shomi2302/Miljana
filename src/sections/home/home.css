@@ -1,8 +1,8 @@
 /* Home */
-.home{
-  max-width: 85%;
-  margin: auto;
-  padding: 4% 0;
+.home {
+  width: 100%;
+  height: 100vh;
+  background: url("./home-img.jpg") no-repeat top center/cover;
 }
 
 .main-block {
@@ -12,7 +12,7 @@
   margin: 50px auto;
 }
 
-.content-block{
+.content-block {
   max-width: 600px;
   font-size: 1.5rem;
   display: grid;
@@ -20,11 +20,11 @@
   position: relative;
 }
 
-.content-block p{
+.content-block p {
   margin-top: 30px;
 }
 
-.cb{
+.cb {
   width: 115%;
   height: 50%;
   padding: 10px;
@@ -33,12 +33,12 @@
   left: 50%;
 }
 
-.cb h1{
+.cb h1 {
   font-size: 3.3vw;
   transition: all .5s ease;
 }
 
-.cb p{
+.cb p {
   font-size: 1.5vw;
   transition: all .5s ease;
   transition-delay: .5s;
@@ -46,36 +46,35 @@
 }
 
 
-.cb span{
+.cb span {
   color: #cf90a9;
 }
 
-.image-block{
-  max-width: 850px;
-  margin-left: auto;
-  transition: all .5s ease;
-  transition-delay: 1s;
-  z-index: -1;
+.image-block {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* Media query */
 @media screen and (max-width: 1500px) {
-  .cb{
+  .cb {
     margin-left: -14%;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .home{
+  .home {
     max-width: 100%;
     width: 100%;
+    height: 55vh;
   }
 
-  .main-block{
+  .main-block {
     display: block;
   }
 
-  .cb{
+  .cb {
     position: relative;
     background-color: white;
     top: 0;
@@ -85,28 +84,28 @@
     width: 100%;
   }
 
-  .content-block{
+  .content-block {
     display: block;
     padding: 10px 20px 30px 20px;
-    text-align:left;
+    text-align: left;
   }
 
-  .content-block h1{
+  .content-block h1 {
     font-size: 8vw;
-    padding-right:20px;
+    padding-right: 20px;
   }
 
-  .content-block p{
+  .content-block p {
     margin: 10px 0;
     font-size: 5vw;
-    padding-right:20px;
+    padding-right: 20px;
   }
 
-  .image-block{
+  .image-block {
     overflow: hidden;
   }
 
-  .image-block div{
+  .image-block div {
     width: 120%;
   }
 
