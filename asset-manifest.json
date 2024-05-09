@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.dec7a4e3.chunk.css",
-    "main.js": "/static/js/main.134a0b0e.chunk.js",
-    "main.js.map": "/static/js/main.134a0b0e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.49b69cd8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.49b69cd8.js.map",
-    "static/js/2.b2f93a7c.chunk.js": "/static/js/2.b2f93a7c.chunk.js",
-    "static/js/2.b2f93a7c.chunk.js.map": "/static/js/2.b2f93a7c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7ed48d7038975f5b1d721c52c3d731ee.js": "/precache-manifest.7ed48d7038975f5b1d721c52c3d731ee.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.dec7a4e3.chunk.css.map": "/static/css/main.dec7a4e3.chunk.css.map",
-    "static/js/2.b2f93a7c.chunk.js.LICENSE.txt": "/static/js/2.b2f93a7c.chunk.js.LICENSE.txt",
-    "static/media/facebook.svg": "/static/media/facebook.1c39a974.svg",
-    "static/media/home-img.jpg": "/static/media/home-img.97f33902.jpg",
-    "static/media/instagram.svg": "/static/media/instagram.93d17e81.svg"
+    "main.css": "/miljana/static/css/main.c3ee43cd.chunk.css",
+    "main.js": "/miljana/static/js/main.e332e97a.chunk.js",
+    "main.js.map": "/miljana/static/js/main.e332e97a.chunk.js.map",
+    "runtime-main.js": "/miljana/static/js/runtime-main.bacf8a57.js",
+    "runtime-main.js.map": "/miljana/static/js/runtime-main.bacf8a57.js.map",
+    "static/js/2.b2f93a7c.chunk.js": "/miljana/static/js/2.b2f93a7c.chunk.js",
+    "static/js/2.b2f93a7c.chunk.js.map": "/miljana/static/js/2.b2f93a7c.chunk.js.map",
+    "index.html": "/miljana/index.html",
+    "precache-manifest.d319078de5e7f2b5b544a665a0d76b67.js": "/miljana/precache-manifest.d319078de5e7f2b5b544a665a0d76b67.js",
+    "service-worker.js": "/miljana/service-worker.js",
+    "static/css/main.c3ee43cd.chunk.css.map": "/miljana/static/css/main.c3ee43cd.chunk.css.map",
+    "static/js/2.b2f93a7c.chunk.js.LICENSE.txt": "/miljana/static/js/2.b2f93a7c.chunk.js.LICENSE.txt",
+    "static/media/facebook.svg": "/miljana/static/media/facebook.1c39a974.svg",
+    "static/media/home-img.jpg": "/miljana/static/media/home-img.97f33902.jpg",
+    "static/media/instagram.svg": "/miljana/static/media/instagram.93d17e81.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.49b69cd8.js",
+    "static/js/runtime-main.bacf8a57.js",
     "static/js/2.b2f93a7c.chunk.js",
-    "static/css/main.dec7a4e3.chunk.css",
-    "static/js/main.134a0b0e.chunk.js"
+    "static/css/main.c3ee43cd.chunk.css",
+    "static/js/main.e332e97a.chunk.js"
   ]
 }
